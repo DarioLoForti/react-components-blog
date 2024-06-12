@@ -1,4 +1,17 @@
 .header {
-    padding: 10px;
+    padding: 20px;
     text-align: center;
   }
+
+.title{
+    font-size: 50px;
+    color: #09035e;
+    text-shadow: 0 0 5px #4ccafc,
+                  0 0 10px #4ccafc,
+                  0 0 20px #4ccafc,
+                  0 0 40px #4ccafc,
+                  0 0 80px #4ccafc,
+                  0 0 90px #4ccafc,
+                  0 0 100px #4ccafc,
+                  0 0 150px #4ccafc;
+}
