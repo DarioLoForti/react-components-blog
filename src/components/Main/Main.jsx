@@ -5,6 +5,13 @@ const Main = () => {
   return (
     <main className={mainStyle.main}>
        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
     </main>
   );
 }
