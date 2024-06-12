@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import PropTypes from 'prop-types';
 import cardStyle from './Card.module.css';
 
 const Card = ({title, content, image}) => {
@@ -24,5 +24,11 @@ const Card = ({title, content, image}) => {
     </div>
   );
 };
+
+Card.propTypes = {
+    title: PropTypes.string.isRequired,
+    content: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+  };
 
 export default Card;
