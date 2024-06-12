@@ -1,13 +1,15 @@
 .card{
     width: 400px;
-    background-color: white;
+    background-color: rgb(58, 57, 57);
+    color: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center
+    text-align: center;
+    opacity: 0.8;
   }
 
 .card:hover{
-    border: 3px solid #e6964b;
+    opacity: 1;
   }
   
   .figcaption{
